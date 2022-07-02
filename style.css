@@ -130,6 +130,7 @@ main > article > h1 {
     padding-bottom: 10px;
     font-family: var(--fonte-destaque);
     text-align: center;
+    font-size: 1cm;
 }
 
 main > article > p {
@@ -141,12 +142,21 @@ main > article > p {
     display: table;
 }
 
+.titulo-discp {
+    font-weight: bold;
+}
+
 .discp-img {
     display: table-cell;
     float: left;
 }
 
+.link-discp {
+    text-decoration: none;
+}
+
 .discp-txt {
+    font-family: var(--fonte-padrao);
     display: table-cell;
     float: left;
     width: 600px;
