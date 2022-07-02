@@ -141,6 +141,10 @@ img {
     width: 100%;
 }
 
+img.discp {
+    width: 20%;
+}
+
 aside {
     padding: 20px 20px;
     padding-top: 10px;
