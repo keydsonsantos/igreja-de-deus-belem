@@ -138,11 +138,6 @@ main > article > p {
     text-align: justify;
 }
 
-p.discp-txt {
-    min-width: 240px;
-    max-width: 862px;
-}
-
 .conteudo {
     display: table;
 }
@@ -164,7 +159,8 @@ p.discp-txt {
     font-family: var(--fonte-padrao);
     display: table-cell;
     float: left;
-    width: 600px;
+    min-width: 240px;
+    max-width: 862px;
     margin-top: 25px;
     margin-left: 20px;
 }
