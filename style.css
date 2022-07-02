@@ -137,12 +137,25 @@ main > article > p {
     text-align: justify;
 }
 
-img {
-    width: 100%;
+.conteudo {
+    display: table;
 }
 
-img.discp {
-    width: 20%;
+.discp-img {
+    display: table-cell;
+    float: left;
+}
+
+.discp-txt {
+    display: table-cell;
+    float: left;
+    width: 600px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+img {
+    width: 100%;
 }
 
 aside {
