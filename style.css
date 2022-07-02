@@ -138,6 +138,11 @@ main > article > p {
     text-align: justify;
 }
 
+p.discp-txt {
+    min-width: 240px;
+    max-width: 862px;
+}
+
 .conteudo {
     display: table;
 }
