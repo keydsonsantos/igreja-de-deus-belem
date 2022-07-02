@@ -159,6 +159,7 @@ main > article > p {
     font-family: var(--fonte-padrao);
     display: table-cell;
     float: left;
+    min-width: 250px;
     min-width: 240px;
     max-width: 862px;
     margin-top: 25px;
