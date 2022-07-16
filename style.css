@@ -6,17 +6,17 @@
 }
 
 :root {
-    --cor1: #FDFDFD;
-    --cor2: #E4D0BC;
-    --cor3: #B2A79C;
-    --cor4: #807D7B;
-    --cor5: #EFEFEF;
+    --cor1: #001542;
+    --cor2: #085454;
+    --cor3: #7A7A7A;
+    --cor4: #FFFFFF;
+    --cor5: #FFB30D;
 
     --fonte-padrao: Arial, Helvetica, verdana, sans-serif;
     --fonte-destaque: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 body {
-    background-color: var(--cor2);
+    background-color: var(--cor3);
 }
 
 main p {
@@ -34,7 +34,8 @@ main a {
 }
 
 main a:hover {
-    color: blue;
+    color: var(--cor1);
+    text-decoration: overline underline;
 }
 
 .reino a::after {
@@ -46,7 +47,7 @@ main abbr {
 }
 
 aside a {
-    color: white;
+    color: var(--cor4);
     text-decoration: none;
 }
 
@@ -56,7 +57,7 @@ aside a:hover {
 
 header {
     min-height: 150px;
-    background-image: linear-gradient(to bottom, var(--cor2), var(--cor3));
+    background-image: linear-gradient(to bottom, var(--cor4), var(--cor1));
 }
 
 header > h1 {
@@ -96,11 +97,11 @@ nav {
     padding-bottom: 10px;
     margin: 0px;
     box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.432);
-    background-color: var(--cor3);
+    background-color: var(--cor1);
 }
 
 nav > a {
-    color: white;
+    color: var(--cor4);
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     font-weight: bold;
@@ -111,8 +112,8 @@ nav > a {
 }
 
 nav > a:hover {
-    color: var(--cor4);
-    background-color: var(--cor5);
+    color: var(--cor5);
+    background-color: var(--cor3);
 }
 
 main {
@@ -140,13 +141,21 @@ main > article > p {
     text-align: justify;
 }
 
+.top {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 .conteudo {
     display: table;
 }
 
 .titulo-discp {
-    background-color: var(--cor2);
+    font-family: var(--fonte-destaque);
+    background-image: linear-gradient(to right, var(--cor1), var(--cor4));
+    color: var(--cor5);
     margin-top: 30px;
+    font-size: 1.1em;
     font-weight: bold;
     border-radius: 5px;
 }
@@ -154,7 +163,8 @@ main > article > p {
 .discp-img {
     display: table-cell;
     float: left;
-    margin: auto;
+    /*width: 400px;*/
+    /*padding-left: 220px;*/
 }
 
 .link-discp {
@@ -163,15 +173,17 @@ main > article > p {
 
 .discp-txt {
     font-family: var(--fonte-padrao);
-    /*display: table-cell;*/
+    display: table-cell;
     float: left;
     min-width: 240px;
     max-width: 862px;
     margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .continuar {
-    background-color: var(--cor3);
+    background-color: var(--cor4);
     font-weight: bold;
     font-size: 1em;
     width: 190px;
@@ -193,7 +205,7 @@ aside {
     padding-top: 10px;
     padding-bottom: 10px;
     max-width: 862px;
-    background-image: linear-gradient(to bottom, var(--cor3), var(--cor4));
+    background-image: linear-gradient(to top, var(--cor1), var(--cor4));
     margin: auto;
 }
 
@@ -209,11 +221,11 @@ footer {
     font-size: 1em;
     padding: 5px;
     margin-top: 5px;
-    background-image: linear-gradient(to bottom, var(--cor3), var(--cor4));
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor1));
 }
 
 footer > p {
     font-family: Arial, Helvetica, sans-serif;
-    color: var(--cor1);
+    color: var(--cor4);
     font-weight: bold;
 }
