@@ -136,7 +136,7 @@ main > article > h1 {
 }
 
 main > article > p {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--fonte-padrao);
     text-align: justify;
 }
 
@@ -145,7 +145,10 @@ main > article > p {
 }
 
 .titulo-discp {
+    background-color: var(--cor2);
+    margin-top: 30px;
     font-weight: bold;
+    border-radius: 5px;
 }
 
 .discp-img {
@@ -160,7 +163,7 @@ main > article > p {
 
 .discp-txt {
     font-family: var(--fonte-padrao);
-    display: table-cell;
+    /*display: table-cell;*/
     float: left;
     min-width: 240px;
     max-width: 862px;
@@ -168,15 +171,13 @@ main > article > p {
 }
 
 .continuar {
-    text-align: center;
-    font-family: var(--fonte-padrao);
-    background-color: var(--cor4);
-    text-decoration: none;
+    background-color: var(--cor3);
     font-weight: bold;
+    font-size: 1em;
+    width: 190px;
+    height: 26px;
     border-radius: 5px;
-    margin-left: 200px;
-    margin-right: 200px;
-    padding: 5px;
+    margin: auto;
 }
 
 .pregador a::after {
