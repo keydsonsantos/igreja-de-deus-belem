@@ -149,6 +149,7 @@ main > article > p {
 .discp-img {
     display: table-cell;
     float: left;
+    margin: auto;
 }
 
 .link-discp {
@@ -162,8 +163,7 @@ main > article > p {
     min-width: 250px;
     min-width: 240px;
     max-width: 862px;
-    margin-top: 25px;
-    margin-left: 20px;
+    margin-top: 10px;
 }
 
 img {
